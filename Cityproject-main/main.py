@@ -4,7 +4,8 @@ print("⚠️dont type in any typos please!⚠️")
 
 def cities():
     continent = input("please any continent (Asia, Africa, Europe, North america, South america):-")
-    file = open(continent,'r')
+    file1 = "continents" + '/' + continent 
+    file = open(file1,'r')
     num = 0
     ans = 0
     for var in file:
